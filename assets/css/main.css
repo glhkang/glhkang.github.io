@@ -3245,7 +3245,7 @@ button:disabled,
 }
 
 #header nav a[href="#menu"]:before {
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscalge;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   font-style: normal;
