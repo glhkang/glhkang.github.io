@@ -2819,7 +2819,12 @@ ul.contact li:first-child {
   margin-top: 0;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 650px) {
+  ul.contact {
+    flex-direction: column;
+    align-items: start;
+  }
+
   ul.contact li {
     margin: 1.5em 0 0 0;
   }
@@ -4276,6 +4281,18 @@ body.is-preload #banner p {
 }
 
 .list-of-proficiencies img {
-  max-height: 7em;
-  max-width: 7em;
+  max-height: 6em;
+  max-width: 6em;
+}
+
+@media screen and (max-width: 750px) {
+  .list-of-proficiencies {
+    flex-direction: column;
+    font-size: 18px;
+  }
+
+  .list-of-proficiencies img {
+    max-height: 2em;
+    max-width: 2em;
+  }
 }
